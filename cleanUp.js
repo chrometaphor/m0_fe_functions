@@ -8,25 +8,29 @@
 
 
 // EX 1:
-function nameQuestion() {
+function nameQuestion(name) {
+  // added parameter to answer question
   console.log("Hello, what is your name?")
+  console.log("My name is", name)
 }
 
-nameQuestion()
+nameQuestion("Chris Cole")
+// added name to answer question
 
 
 // EX 2:
 function addThreeNums(first, second, third) {
 var sum = first + second + third
 console.log(sum);
-      }
-
+}
+// removed whitespace on line 25
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
 
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
+  // typed out rest of function keyword
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -37,10 +41,11 @@ makeFreshPesto();
 
 
 //  EX 4:
-function average(num1, num2) 
-  {
+function average(num1, num2) {
+  // backspace curly brace to 42
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
+  console.log(`the average is: ${avg}.`)
+  // last period was outside backtic
   }
